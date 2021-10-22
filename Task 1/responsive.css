@@ -1,0 +1,54 @@
+
+/*This Media Query use for Mobile Landscape and Portrait View*/
+@media screen and (max-width: 767px){
+  
+	.header{
+		padding: 10px 0;
+	}
+	.logo{
+		width: 100px;
+	}
+	.header-right-list ul li{
+		margin-left: 5px;
+	}
+	.header-right-list ul li a{
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 16px;
+	}
+	.header-right-list ul li a.nav_icon{
+		font-size: 30px;
+	}
+	.main_menu{
+		padding-top: 50px;
+	}
+	.main_menu ul li a{
+		font-size: 18px;
+	}
+	.banner{
+		font-size: 16px;
+	}
+	.banner h1{
+		font-size: 6vw;
+	}
+	.about_us-section,
+	.contact_us-section{
+		padding: 60px 0;
+	}
+	h2{ font-size: 30px; }
+	h2.left {
+    text-align: center;
+	}
+	h2.left span{
+	    padding-left: 40px;
+	}
+	.services-section{
+		padding: 60px 0 20px;
+	}
+
+	
+}
+
+
+
